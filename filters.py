@@ -4,7 +4,7 @@ def filter(Pi, Delta, sigma, method = 'mse', beta = 0.375):
     elif method == 'sc':
         return (sigma*Pi)/(sigma**2*Pi + Delta/(8*beta))
     elif method == 'post':
-        return (sigma*Pi)/(sigma**2*Pi + sigma**2*Pi*Delta)
+        return (sigma*Pi)/(sigma**2*Pi + sigma**2*Delta)
     elif method == 'adv':
         return sigma/(sigma**2+ 3*Delta/(8*beta*(3*sigma**2*Pi+Delta)))
     elif method == 'nofilter':
