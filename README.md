@@ -12,9 +12,6 @@ In this respository, we document the numerical examples from our paper [Learned 
 > #### [Citation](#8)
 
 
-### <a id="3"> Quick Intro </a>
-
-
 ### <a id="4"> Data </a>
 In order to run the code smoothly and without to many package dependencies, some pre-saved data is required. The respective folder **spectralData** can be downloaded here:\
 [https://syncandshare.desy.de/index.php/s/rSysTmdGAtYAf7r](https://syncandshare.desy.de/index.php/s/rSysTmdGAtYAf7r)
