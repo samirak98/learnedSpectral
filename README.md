@@ -5,15 +5,15 @@ In this respository, we document the numerical examples from our paper [Learned 
 > If you spot a mistake, encounter any problems, or have any further comments or questions, feel free to send an email to samira.kabri[at]desy.de.
 
 ### Content
->#### [Quick Intro](#intro)
->#### [Data](#data)
->#### [Requirements](#requirements)
->#### [Experiments](#experiments)
->#### [References](#references)
->#### [Citation](#citation)
+#### [Quick Intro](#intro)
+#### [Data](#data)
+#### [Requirements](#requirements)
+#### [Experiments](#experiments)
+#### [References](#references)
+#### [Citation](#citation)
 
 
-### <a id=intro> Quick Intro </a>
+### <a id='intro'> Quick Intro </a>
 The aim of the examples we provide here, is to compare different data-driven spectral reconstruction operators to solve inverse problems. More precisely, for an inverse problem $y= Ax + \epsilon$, we consider reconstruction operators 
 
 $$ R_{\mu}(y) = \sum_{n = 1}^N g_n(\mu)  \langle y, v_n \rangle  u_n = U\mathrm{diag}(g(\mu))V^T  y.$$ 
@@ -42,7 +42,7 @@ Our driving questions are:
 
 In the experiments, we perform CT-reconstruction, where the forward operator $A$ is given by the [Radon transform](https://en.wikipedia.org/wiki/Radon_transform).
 
-###  <a id=data> Data </a>
+###  <a id='data'> Data </a>
 In order to run the code smoothly and without to many package dependencies, some pre-saved data is required. The respective folder **spectralData** can be downloaded here:\
 [https://syncandshare.desy.de/index.php/s/rSysTmdGAtYAf7r](https://syncandshare.desy.de/index.php/s/rSysTmdGAtYAf7r)
 
