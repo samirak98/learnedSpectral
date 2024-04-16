@@ -4,7 +4,7 @@ In this respository, we document the numerical examples from our paper [Learned 
 > [!NOTE]
 > If you spot a mistake, encounter any problems, or have any further comments or questions, feel free to send an email to samira.kabri[at]desy.de.
 
-### Content
+## Content
 > #### [Data](#4)
 > #### [Requirements](#5)
 > #### [Experiments](#6)
@@ -12,7 +12,7 @@ In this respository, we document the numerical examples from our paper [Learned 
 > #### [Citation](#8)
 
 
-### <a id="4"> Data </a>
+## <a id="4"> Data </a>
 In order to run the code smoothly and without to many package dependencies, some pre-saved data is required. The respective folder **spectralData** can be downloaded here:\
 [https://syncandshare.desy.de/index.php/s/rSysTmdGAtYAf7r](https://syncandshare.desy.de/index.php/s/rSysTmdGAtYAf7r)
 
@@ -43,7 +43,7 @@ The pre-saved operators have the following specifications:
   The code we have used to compute the coefficients is documented in `coeffs.py` and can be applied to any other combination of data and operator.
 * An example image `test_img.png`, taken from the [LoDoPaB CT data set](https://zenodo.org/records/3384092).
 
-### <a id="5"> Requirements </a>
+## <a id="5"> Requirements </a>
 Using the pre-saved data, running the code only requires the packages `matplotlib`, `numpy`, and `scikit-image`. 
 You can install these packages by running
 ```
@@ -51,7 +51,7 @@ pip install -r requirements.txt
 ```
 in the project directory.
 
-### <a id="6"> Experiments </a>
+## <a id="6"> Experiments </a>
 The aim of the experiments we provide here, is to compare different data-driven spectral reconstruction operators to solve inverse problems. More precisely, for an inverse problem $y= Ax + \epsilon$, we consider reconstruction operators 
 
 $$ R_{\mu}(y) = \sum_{n = 1}^N g_n(\mu)  \langle y, v_n \rangle  u_n = U\mathrm{diag}(g(\mu))V^T  y.$$ 
@@ -88,7 +88,7 @@ The main parts of this repository are the two Jupyter Notebooks `continuity.ipyn
 > The object `radon_128.obj` is quite large and computations using the `128x128`-operator can take quite some time. 
 > If you have problems downloading the pre-saved operator or it takes too long to run the Code on your machine, you can skip the parts that use `res = 128`, or, respectively, change them to `res = 64` or `res = 32`.
 
-### <a id ="7"> References </a>
+## <a id ="7"> References </a>
 <a id="1">[1]</a> 
 Kabri, S., Auras, A., Riccio, D., Bauermeister, H., Benning, M., Moeller, M., Burger, M.
 Convergent Data-Driven Regularizations for CT Reconstruction. Commun. Appl. Math. Comput. (2024). \
@@ -97,7 +97,7 @@ Leuschner, J., Schmidt, M., Otero Baguer, D., Maass, P.
 LoDoPaB-CT, a benchmark dataset for low-dose computed tomography reconstruction.
 Scientific Data, 8(109). (2021).
 
-### <a id ="8"> Citation </a>
+## <a id ="8"> Citation </a>
 If you would like to cite our preprint, you can copy the following bib entry:
 ```
 @misc{burger2023learned,
