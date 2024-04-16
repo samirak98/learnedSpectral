@@ -1,5 +1,4 @@
 import numpy as np
-import torch
 from ops import svd_op
 
 def get_pi(img_data, operator):
