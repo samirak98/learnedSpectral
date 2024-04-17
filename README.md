@@ -39,7 +39,7 @@ The pre-saved operators have the following specifications:
   > op16 = svd_op(A,res)     # computes the SVD and implements forward, inverse and adjoint for 2-D inputs
   >```
 
-* Three lists (`pi32.txt`, `pi64.txt`, `pi128.txt`) of coefficients $\{\Pi_n^\*\}_{n \in \mathbb{N}}$ corresponding to the three pre-saved operators. The data distribution $\pi^\*$ is described by the first 2400 images of the [LoDoPaB CT data set](https://zenodo.org/records/3384092), see also [[2]](#2).\
+* Three lists (`pi32.txt`, `pi64.txt`, `pi128.txt`) of coefficients $`\{\Pi_n^*\}_{n \in \mathbb{N}}`$ corresponding to the three pre-saved operators. The data distribution $\pi^\*$ is described by the first 2400 images of the [LoDoPaB CT data set](https://zenodo.org/records/3384092), see also [[2]](#2).\
   The code we have used to compute the coefficients is documented in `coeffs.py` and can be applied to any other combination of data and operator.
 * An example image `test_img.png`, taken from the [LoDoPaB CT data set](https://zenodo.org/records/3384092).
 
@@ -58,7 +58,7 @@ $$ R_{\mu}(y) = \sum_{n = 1}^N g_n(\mu)  \langle y, v_n \rangle  u_n = U\mathrm{
 
 Here, $A = V\mathrm{diag}(\sigma)U^{T}$ is the [singular value decompositon](https://en.wikipedia.org/wiki/Singular_value_decomposition) of $A$. The n-th columns of $U$ and $V$ are denoted by $u_n$ and $v_n$.
 
-The filter $g(\mu) = \{g_n(\mu)\}_{n \in \mathbb{N}}$ is now optimized with respect to three different learning paradigms (which we call `mse`, `adv` and `post` in the code), \
+The filter $`g(\mu) = \{g_n(\mu)\}_{n \in \mathbb{N}}`$ is now optimized with respect to three different learning paradigms (which we call `mse`, `adv` and `post` in the code), \
 with training noise $\epsilon$ drawn from the distribution $\mu$ and data $x$ drawn from the distribution $\pi^\*$.\
 For all considered approaches, the optimal filter coefficients are of the form 
 
