@@ -13,7 +13,7 @@ In this respository, we document the numerical examples from our paper [Learned 
 
 
 ## <a id="4"> Data </a>
-In order to run the code smoothly and without to many package dependencies, some pre-saved data is required. The respective folder **spectralData** can be downloaded here:\
+In order to run the code smoothly and without too many package dependencies, some pre-saved data is required. The respective folder **spectralData** can be downloaded here:\
 [https://syncandshare.desy.de/index.php/s/rSysTmdGAtYAf7r](https://syncandshare.desy.de/index.php/s/rSysTmdGAtYAf7r)
 
 The folder has a size of approximately 5.6 GB and contains:
