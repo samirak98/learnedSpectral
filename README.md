@@ -98,16 +98,23 @@ LoDoPaB-CT, a benchmark dataset for low-dose computed tomography reconstruction.
 Scientific Data, 8(109). (2021).
 
 ## <a id ="8"> Citation </a>
-If you would like to cite our preprint, you can copy the following bib entry:
+If you would like to cite our book chapter, you can copy the following bib entry:
 ```
-@misc{burger2023learned,
-      title={Learned Regularization for Inverse Problems: Insights from a Spectral Model}, 
-      author={Martin Burger and Samira Kabri},
-      year={2023},
-      eprint={2312.09845},
-      archivePrefix={arXiv},
-      primaryClass={math.NA}
+@inbook{Burger2025learned,
+url = {https://doi.org/10.1515/9783111251233-002},
+title = {Learned regularization for inverse problems},
+booktitle = {Data-driven Models in Inverse Problems},
+author = {Martin Burger and Samira Kabri},
+editor = {Tatiana A. Bubba},
+publisher = {De Gruyter},
+address = {Berlin, Boston},
+pages = {39--72},
+doi = {doi:10.1515/9783111251233-002},
+isbn = {9783111251233},
+year = {2025},
+lastchecked = {2025-05-20}
 }
+
 ```
 
 
